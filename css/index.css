@@ -882,7 +882,7 @@ nav #main-menu li a {
 }
 
 #skills > article > h2 {
-  color: #cecece;
+  color: #f9f9f9;
   margin-top: 1em;
 }
 
@@ -1018,7 +1018,7 @@ nav #main-menu li a {
 
 #skills > article .skills-list .skills-item .wrapper header h3 {
   margin: 0;
-  color: #d4d4d4;
+  color: #f9f9f9;
   z-index: 2;
   font-size: 1.5em;
   white-space: nowrap;
@@ -1033,7 +1033,7 @@ nav #main-menu li a {
   -webkit-box-flex: 4;
       -ms-flex: 4;
           flex: 4;
-  color: #cecece;
+  color: #f9f9f9;
 }
 
 @media only screen and (min-width: 768px) {
@@ -1237,7 +1237,7 @@ nav #main-menu li a {
   padding: 0.5em;
   background: none;
   border: none;
-  color: #cecece;
+  color: #f9f9f9;
   opacity: .5;
   cursor: pointer;
   -webkit-transition: ease 200ms;
@@ -1255,7 +1255,7 @@ nav #main-menu li a {
   min-height: 100vh;
   padding-top: 1px;
   margin: 0 auto;
-  color: #cecece;
+  color: #f9f9f9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1324,7 +1324,7 @@ nav #main-menu li a {
   line-height: 3rem;
   display: inline-block;
   font-family: "Jura", Arial, sans-serif;
-  color: #cecece;
+  color: #f9f9f9;
 }
 
 #contacts article #contact-form fieldset legend {
@@ -1571,7 +1571,7 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
   clear: booth;
-  color: #cecece;
+  color: #f9f9f9;
   width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1601,7 +1601,7 @@ footer h1 a i, footer h2 a i {
 }
 
 footer p {
-  color: #cecece;
+  color: #f9f9f9;
   font-size: .9em;
 }
 
@@ -1630,7 +1630,7 @@ footer ul.contact-socials li a::after {
   line-height: 3rem;
   display: inline-block;
   font-family: "Jura", Arial, sans-serif;
-  color: #cecece;
+  color: #f9f9f9;
 }
 
 @media only screen and (max-width: 767px) {

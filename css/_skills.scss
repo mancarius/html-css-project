@@ -188,29 +188,11 @@
                 }
                 display:block;
                 transform: skewX($deg);
-                
-                // for slick
-                .slick-slide {
-
-                    $i: 1;
-
-                    @each $color in $progress-color {
-                        &:nth-child(#{$i}) .progress-ring__circle {
-                            stroke: $color;
-                        }
-
-                        &:nth-child(#{$i}) .percent {
-                            color: $color;
-                        }
-
-                        $i: $i+1;
-                    }
-
-                } // end slick
 
                 .skills-item{
                     padding: 2rem 1rem;
                     min-height: 100%;
+                    margin-bottom: 2rem;
 
                     .wrapper {
                         flex-flow: column;

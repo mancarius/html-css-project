@@ -4,23 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="theme-color" content="#000000">
-  <!--
-    manifest.json provides metadata used when your web app is added to the
-    homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
-  -->
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-  <!--
-    Notice the use of %PUBLIC_URL% in the tags above.
-    It will be replaced with the URL of the `public` folder during the build.
-    Only files inside the `public` folder can be referenced from the HTML.
 
-    Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-    work correctly both with client-side routing and a non-root public URL.
-    Learn how to configure a non-root public URL by running `npm run build`.
-  -->
-  <title>React App</title>
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js" async="false"></script>
+  <title>Mattia Mancarella</title>
 </head>
 <body>
   <!DOCTYPE html>
@@ -261,9 +246,9 @@
                 <article>
 
                     <picture class="fade-in">
-                        <source media="(min-width: 768px)" data-srcset="./images/mattia-mancarella-512px.jpg" />
-                        <source media="(min-width: 425px)" data-srcset="./images/mattia-mancarella-256px.jpg" />
-                        <img class="lazy" data-src="./images/mattia-mancarella-128px.jpg" itemprop="image"
+                        <source media="(min-width: 768px)" srcset="./images/mattia-mancarella-512px.jpg" />
+                        <source media="(min-width: 425px)" srcset="./images/mattia-mancarella-256px.jpg" />
+                        <img class="lazy" src="./images/mattia-mancarella-128px.jpg" itemprop="image"
                             alt="Photo of Mattia Mancarella">
                     </picture>
 
@@ -314,6 +299,7 @@
             ------------------------------------------>
 
             <section id="contacts">
+                <button id="close-contacts" class="fas fa-times" aria-label="Exit contacts"></button>
                 <article>
                     <h2>Contacts</h2>
                     <div class="form-states" data-current-state="ready">
@@ -451,7 +437,7 @@
             <div id="fl-studio">
                 <div class="tippy-template">
                     <a href="https://en.wikipedia.org/wiki/FL_Studio" target="_blank" rel="noopener noreferrer">
-                        <img class="lazy" data-src="https://www.image-line.com/wp-content/themes/intracto/build/images/fl-header-logo.png"
+                        <img class="lazy" src="https://www.image-line.com/wp-content/themes/intracto/build/images/fl-header-logo.png"
                             alt="FL Studio Logo"> My favorite DAW is FL Studio
                     </a>
                 </div>
@@ -460,7 +446,7 @@
                 <div class="tippy-template">
                     <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings" target="_blank"
                         rel="noopener noreferrer">
-                        <img class="lazy" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/One_Ring_Blender_Render.png/130px-One_Ring_Blender_Render.png"
+                        <img class="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/One_Ring_Blender_Render.png/130px-One_Ring_Blender_Render.png"
                             alt="The one Ring"> Lord Of The Rings
                         Thrilogy (Peter Jackson)
                     </a>
@@ -470,7 +456,7 @@
                 <div class="tippy-template">
                     <a href="https://en.wikipedia.org/wiki/Stronghold_(2001_video_game)" target="_blank"
                         rel="noopener noreferrer">
-                        <img class="lazy" data-src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Stronghold_%282001%29_Coverart.png/220px-Stronghold_%282001%29_Coverart.png"
+                        <img class="lazy" src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Stronghold_%282001%29_Coverart.png/220px-Stronghold_%282001%29_Coverart.png"
                             alt="Stronghold Coverart"> Stronghold
                     </a>
                 </div>
@@ -484,20 +470,10 @@
         <!-- Tippy -->
         <script src="https://unpkg.com/tippy.js@6"></script>
         <!-- Custom -->
-        <script src="./js/2.js"></script>
-        <script src="./js/index.js"></script>
+        <script type="module" src="./js/index.js"></script>
     </body>
 
 </html>
-  <!--
-    This HTML file is a template.
-    If you open it directly in the browser, you will see an empty page.
 
-    You can add webfonts, meta tags, or analytics to this file.
-    The build step will place the bundled scripts into the <body> tag.
-
-    To begin the development, run `npm start` or `yarn start`.
-    To create a production bundle, use `npm run build` or `yarn build`.
-  -->
 </body>
 </html>
